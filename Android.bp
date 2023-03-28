@@ -8,7 +8,16 @@ soong_namespace { }
 cc_library {
     name: "bootctrl.jr510",
     defaults: ["bootctrl_hal_defaults"],
-    static_libs: ["libgptutils.frost"],
+    static_libs: ["libgptutils.frost",
+        "libotautil",
+        "libvintf", 
+        "libhidl-gen-utils",
+        "librecovery_utils",
+        "libc++fs",
+        "libprotobuf-cpp-lite",
+        "ota_metadata_proto_cc",
+        "update_metadata-protos"
+        ],
 }
 
 
