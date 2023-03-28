@@ -29,7 +29,7 @@ prebuilt_etc {
     name: "init.recovery.jlq.rc",
     filename: "init.recovery.jlq.rc",
     src: "recovery/root/init.recovery.jlq.rc",
-    sub_dir: "init/hw",
+    sub_dir: "/",
     recovery: true,
 }
 
